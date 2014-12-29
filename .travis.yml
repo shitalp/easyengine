@@ -10,7 +10,7 @@ install:
  - source ~/virtualenv/python3.4/bin/activate --system-site-packages
  - pip install virtualenv
  - pip install -r requirements.txt
- - python setup.py develop
+ - python3 setup.py develop
 # command to run tests
 script: 
   - nosetests
