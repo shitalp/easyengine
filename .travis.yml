@@ -15,8 +15,7 @@ script:
 - sudo pip3 install -r requirements.txt
 - sudo python3 setup.py develop
 - mkdir ~/.ee
-- cd ~/.ee
-- ln -s ~/shitalp/easyengine/config/plugins.d plugins.d
-- ln -s ~/shitalp/easyengine/ee/cli/plugins plugins
-- cd ~/shitalp/easyengine
+- ln -s config/plugins.d ~/.ee/plugins.d
+- ln -s ee/cli/plugins ~/.ee/plugins
 - ee --help
+- pwd
