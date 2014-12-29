@@ -7,7 +7,7 @@ before_script:
 script:
 - sudo echo -e "[user]\n\tname = abc\n\temail = root@localhost.com" > ~/.gitconfig
 - sudo echo "Travis Banch = $TRAVIS_BRANCH"
-- sudo apt-get install git python3-setuptools
+- sudo apt-get install git python3-setuptools python3-apt
 - sudo easy_install3 pip
 - sudo pip3 install -r requirements.txt
 - sudo python3 setup.py install
