@@ -8,7 +8,7 @@ install:
  - sudo apt-get install python-pip git
  - sudo pip install virtualenv
  - sudo pip install -r requirements.txt
- - sudo python3 setup.py develop
+ - sudo python setup.py develop
 # command to run tests
 script: 
   - nosetests
