@@ -11,5 +11,6 @@ install:
   - python setup.py install
 # command to run tests
 script:
-  - cd tests 
+  - cd easyengine
+  - cd tests
   - nosetests
