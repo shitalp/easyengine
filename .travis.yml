@@ -5,9 +5,9 @@ python:
   - "3.4"
 # command to install dependencies
 install:
- - sudo pip install virtualenv
- - sudo pip install -r requirements.txt
- - sudo python setup.py develop
+ - pip install virtualenv
+ - pip install -r requirements.txt
+ - python setup.py develop
 # command to run tests
 script: 
   - nosetests
