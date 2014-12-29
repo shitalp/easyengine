@@ -1,13 +1,10 @@
 language: python
 python:
   - "3.4"
+  
 # command to install dependencies
 install:
-  - sudo apt-get update
-  - sudo apt-get install python3-pip git
-  - python3 --version
-  - sudo python3 setup.install
-  - ee --help
-  
+  - which pip
+  - which python
 # command to run tests
 script: nosetests
