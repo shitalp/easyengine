@@ -16,6 +16,7 @@ script:
 - sudo python3 setup.py develop
 - mkdir ~/.ee
 - ln -s /home/travis/build/shitalp/easyengine/config/plugins.d ~/.ee/plugins.d
-- ln -s //home/travis/build/shitalp/easyengineee/cli/plugins ~/.ee/plugins
-- ee --help
-- pwd
+- ln -s /home/travis/build/shitalp/easyengineee/cli/plugins ~/.ee/plugins
+- ee --help --debug
+- sudo pip3 install nose
+- nosetests
