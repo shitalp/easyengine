@@ -1,10 +1,9 @@
 language: python
 python:
-  - "3.4"
-  
+- "3.4"
 # command to install dependencies
 install:
-  - which pip
-  - which python
+- sudo /home/travis/virtualenv/python3.4.2/bin/pip install -r requirements.txt
+- sudo /home/travis/virtualenv/python3.4.2/bin/python setup.py develop
 # command to run tests
 script: nosetests
