@@ -6,7 +6,7 @@ python:
 # command to install dependencies
 install:
  - sudo apt-get install python-pip git
- - sudo ln -s /usr/include/freetype2 /usr/local/include/freetype
+ - sudo apt-get install python-dev
  - pip3 install virtualenv
  - source ~/virtualenv/python3.4/bin/activate --system-site-packages
  - pip install virtualenv
