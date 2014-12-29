@@ -1,21 +1,16 @@
-notifications:
-  webhooks:
-    urls:
-      - https://webhooks.gitter.im/e/bd77a26eab56de803949
-    on_success: always  # options: [always|never|change] default: always
-    on_failure: always  # options: [always|never|change] default: always
-    on_start: false     # default: false
-
-language: bash
-
-before_install:
-- rm -rf ~/.gnupg
-
-before_script:
-- sudo apt-get -qq purge mysql* graphviz*
-- sudo apt-get -qq autoremove
-
-script:
-- sudo echo -e "[user]\n\tname = Mitesh Shah\n\temail = root@localhost.com" > ~/.gitconfig
-- sudo echo "Travis Banch = $TRAVIS_BRANCH"
+language: python
+python:
+  - "3.2"
+  - "3.3"
+  - "3.4"
+# command to install dependencies
+install:
+ - sudo apt-get install python3-pip git
+ - sudo pip install virtualenv
+ - cd easyengine
+ - sudo pip install -r requirements.txt
+ - sudo python3 setup.py develop
+# command to run tests
+script: 
+  - nosetests
 
