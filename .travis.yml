@@ -5,8 +5,8 @@ python:
 install:
   - sudo apt-get update
   - sudo apt-get install python3-apt
-  - pip install -r requirements.txt
-  - pip install nose
-  - python setup.py install
-  - ee --help
+  - which pip3
+  - which python3
+  - pip --version
+  - python --version
 script: nosetests
