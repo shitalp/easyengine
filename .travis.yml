@@ -5,6 +5,8 @@ python:
   - "3.4"
 # command to install dependencies
 install:
+ - sudo apt-get update
+ - sudo apt-get install python3-dev
  - pip install virtualenv
  - pip install -r requirements.txt
  - python setup.py develop
