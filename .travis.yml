@@ -1,12 +1,15 @@
-language: python
-python:
-- "3.4"
-# command to install dependencies
-install:
-  - sudo apt-get update
-  - sudo apt-get install python3-apt
-  - which pip3
-  - which python3
-  - pip --version
-  - python --version
-script: nosetests
+language: bash
+before_install:
+- rm -rf ~/.gnupg
+before_script:
+- sudo apt-get -qq purge mysql* graphviz*
+- sudo apt-get -qq autoremove
+script:
+- sudo echo -e "[user]\n\tname = abc\n\temail = root@localhost.com" > ~/.gitconfig
+- sudo echo "Travis Banch = $TRAVIS_BRANCH"
+- sudo apt-get install git python3-setuptools
+- sudo easy_install3 pip
+- sudo pip3 install -r requirements.txt
+- sudo python3 setup.py install
+- sudo pip3 install nose
+- sudo nosetests
