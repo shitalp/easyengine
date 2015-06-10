@@ -17,7 +17,7 @@ EasyEngine (ee) is a linux shell-script collection, which makes it easy to manag
 **EasyEngine currently supports:**
 
 - Ubuntu 12.04 & 14.04
-- Debian 6 & 7
+- Debian 6 and 7
 
 ## Quick Start
 
