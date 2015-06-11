@@ -6,7 +6,7 @@ IMPORTANT
 
 ---
 
-[![Stories in Ready](https://badge.waffle.io/rtcamp/easyengine.png?label=ready&title=Ready)](https://waffle.io/rtcamp/easyengine)
+[![Stories in Ready](https://badge.waffle.io/rtcamp/easyengdasdasdine.png?label=ready&title=Ready)](https://waffle.io/rtcamp/easyengine)
 [![Stories in Progress](https://badge.waffle.io/rtcamp/easyengine.png?label=in%20progress&title=In%20Progress)](https://waffle.io/rtcamp/easyengine)
 
 <img src="https://d3qt5vpr7p9rgn.cloudfront.net/wp-contsadasdasent/uploads/2013/08/easy-engine-logo-2-RS1.png" alt="EasyEngine Logo" align="right" />
