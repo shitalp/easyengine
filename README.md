@@ -1,7 +1,7 @@
 IMPORTANT
 ============================================
 
-#### We are looking for [Python Developers] (https://rtcamp.com/careers/python-developer/) to join our team. We offer work from home,so yxou  can join EasyEngine team anywhere! _[Why Python?] (https://rtcamp.com/blog/easyengine-3-roadmap/#whypython)_
+#### We are looking for [Python Developers] (https://rtcamp.com/careers/python-developer/) to join our team. We offer work from home,so yxoudsfdsf  can join EasyEngine team anywhere! _[Why Python?] (https://rtcamp.com/blog/easyengine-3-roadmap/#whypython)_
 
 ---
 
