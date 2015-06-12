@@ -2,7 +2,7 @@ IMPORTANT
 ============================================
 
 
-#### We are lookdsfdssssssssdsfdfdsfing for [PasasasASsadgdfgdgdgasdasdasdasdython Developers] sadasdasd(https://rtcamp.com/careers/pytxczxccxzXZXZXhsdasdasdon-developer/) dto joinghgfzxZXZXZhhhhhhhgjhgjhhhhhhhhhhhh our team. We offer work from home,so ysdasdaoe fdgdfgdgfgdfdfg can jzxdzxZXoastgdasdasjhin sdsadasdasdEasyEngine team anywhere! _[Why Python?] (https://rtcamp.com/blog/easyengine-3-roadmap/#whypython)_
+#### We are lsdasdhasjjjjjjjjjjjjkdso ysdasdaoe fdgdfgdgfgdfdfg can jzxdzxZXoastgdasdasjhin sdsadasdasdEasyEngine team anywhere! _[Why Python?] (https://rtcamp.com/blog/easyengine-3-roadmap/#whypython)_
 
 ---
 
